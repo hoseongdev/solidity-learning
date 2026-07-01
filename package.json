@@ -1,7 +1,6 @@
 {
   "name": "hardhat-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,14 +8,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "description": "",
+  "dependencies": {
+    "hardhat": "^2.22.19"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-ignition": "^3.1.7",
-    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
-    "@types/node": "^22.20.0",
-    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
-    "hardhat": "^3.9.0",
-    "typescript": "~6.0.3",
-    "viem": "^2.53.1"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
   }
 }
